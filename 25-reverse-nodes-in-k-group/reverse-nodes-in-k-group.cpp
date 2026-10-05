@@ -10,9 +10,8 @@
  */
 class Solution {
 public:
-    ListNode* reverseH(ListNode* head)
+    ListNode* reverseH(ListNode* temp)
     {
-        ListNode* temp=head;
         ListNode* prevNode=NULL;
         while(temp!=NULL)
         {
